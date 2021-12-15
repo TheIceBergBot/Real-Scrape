@@ -9,10 +9,10 @@
         steps:
           - name: Checkout Repo
             uses: actions/checkout@v2
-          - name: Setup Python 3.10 (CPython)
+          - name: Setup Python 3.10.0 (CPython)
             uses: actions/setup-python@v2
             with:
-              python-version: 3.10
+              python-version: 3.10.0
           - name: Main Execution
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
