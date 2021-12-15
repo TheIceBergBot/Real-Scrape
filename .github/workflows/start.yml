@@ -17,7 +17,7 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
 
             run: |
               pip install discum discord-webhook requests
@@ -26,34 +26,34 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
           - name: 2nd Loop Execution
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
           - name: 3rd Loop Execution
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
           - name: 4th Loop Execution
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
           - name: Last Loop Execution
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTION_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
