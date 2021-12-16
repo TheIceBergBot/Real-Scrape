@@ -61,3 +61,68 @@
               MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
+            if: always()
+          - name: Last Loop Execution
+            env:
+              DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+              MENTION_USERS: ${{ secrets.MENTION_USERS }}
+              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
+            run: |
+              python scrapper.pyc
