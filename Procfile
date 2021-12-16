@@ -1,1 +1,1 @@
-worker: python scrapper.pyc
+worker: python3 scrapper.pyc
