@@ -17,7 +17,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               pip install discum discord-webhook requests
               python scrapper.pyc
@@ -26,7 +25,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -34,7 +32,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -42,7 +39,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -50,7 +46,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -58,7 +53,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -66,7 +60,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
 
@@ -75,7 +68,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -83,7 +75,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -91,7 +82,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -99,7 +89,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -107,7 +96,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -115,7 +103,6 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
             if: always()
@@ -123,6 +110,5 @@
             env:
               DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
               MENTION_USERS: ${{ secrets.MENTION_USERS }}
-              MENTIONS_USERS_SECOND: ${{ secrets.MENTION_USERS_SECOND }}
             run: |
               python scrapper.pyc
